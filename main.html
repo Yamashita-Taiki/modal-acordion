@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  
+
   <section class="accordion-section">
     <div class="accordion">
       <p class="menu js-menu">メニュー1</p>
@@ -20,7 +20,29 @@
       <div class="contents">コンテンツ3</div>
     </div>
   </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-body">
+            <h1>hello</h1>
+            <input type="button" id="closeBtn" value="close">  <= 追加
+        </div>
+    </div>
+</div>
+  <input type="button" id="btn" value='click me'>
   
-  <script src="./js/main.js"></script>
+  <!-- <script src="./js/main.js"></script> -->
+  <script>
+    const menu = document.querySelectorAll('js-menu');
+function toggle(){
+  const content = this.nextElementSibling;
+  this.classList.toggle('is-active');
+  content.classList.toggle("is-open");
+};
+for (let i = 0; i < menu.length; i++) {
+  menu[i].addEventListener("click", toggle);
+}
+
+  </script>
 </body>
 </html>
