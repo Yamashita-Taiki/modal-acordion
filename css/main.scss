@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 .accordion-section {
   margin-top: 30px;
@@ -56,6 +57,9 @@
   background-color: white;
   width: 500px;
   margin: 40% auto;
+  }
+  .btn-p{
+    text-align: center;
   }
 
 h1{

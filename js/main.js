@@ -7,15 +7,15 @@
 // for (let i = 0; i < menu.length; i++) {
 //   menu[i].addEventListener("click", toggle);
 // }
-var btn = document.getElementById('btn');
-var modal = document.getElementById('modal');
+// const btn = document.getElementById('btn');
+// const modal = document.getElementById('modal');
 
-btn.addEventListener('click', function() {
-  modal.style.display = 'block';
-}
+// btn.addEventListener('click', function() {
+//   modal.style.display = 'block';
+// }
 
-var closeBtn = document.getElementById('closeBtn');
+// const closeBtn = document.getElementById('closeBtn');
 
-closeBtn.addEventListener('click', function() {
-  modal.style.display = 'none';
-})
+// closeBtn.addEventListener('click', function() {
+//   modal.style.display = 'none';
+// })
