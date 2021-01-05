@@ -65,3 +65,21 @@
 h1{
   color: black;
 }
+.stroke{
+  letter-spacing: .1em;
+  background-color: #D9BCB8;
+
+}
+
+<section accordion-section">
+    <div accordion">
+      <p menu js-menu">メニュー1</p>
+      <div contents">コンテンツ1</div>
+
+      <p menu js-menu">メニュー2</p>
+      <div contents">コンテンツ2</div>
+
+      <p menu js-menu">メニュー3</p>
+      <div contents">コンテンツ3</div>
+    </div>
+  </section>

@@ -75,4 +75,9 @@
 h1 {
   color: black;
 }
+
+.stroke {
+  letter-spacing: .1em;
+  background-color: #D9BCB8;
+}
 /*# sourceMappingURL=main.css.map */
