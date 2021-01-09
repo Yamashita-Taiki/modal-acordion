@@ -1,4 +1,5 @@
-const menu = document.querySelectorAll('.js-menu');
+// アコーディオン
+const menu = document.querySelectorAll('.js-menus');
 function toggle(){
   const content = this.nextElementSibling;
   this.classList.toggle('is-active');
@@ -7,20 +8,24 @@ function toggle(){
 for (let i = 0; i < menu.length; i++) {
   menu[i].addEventListener("click", toggle);
 }
-const btn = document.getElementById('btn');
-const modal = document.getElementById('modal');
+
+// モーダル
+const btn = document.querySelector('#btn');
+const modal = document.querySelector('#modal');
 
 btn.addEventListener('click', function() {
   modal.style.display = 'block';
 })
 
-const closeBtn = document.getElementById('closeBtn');
+const closeBtn = document.querySelector('#js-modal-closeBtn');
 
 closeBtn.addEventListener('click', function() {
   modal.style.display = 'none';
 })
 
-const PageTopBtn = document.getElementById('js-scroll-top');
+
+// スクロール
+const PageTopBtn = document.querySelector('#js-scroll-top');
 PageTopBtn.addEventListener('click', () =>{
   window.scrollTo({
     top: 0,
