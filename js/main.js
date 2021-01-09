@@ -20,10 +20,10 @@ closeBtn.addEventListener('click', function() {
   modal.style.display = 'none';
 })
 
-const PageTopBtn = document.getElementById('js-scroll-top');
-PageTopBtn.addEventListener('click', () =>{
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-});
+// const PageTopBtn = document.getElementById('js-scroll-top');
+// PageTopBtn.addEventListener('click', () =>{
+//   window.scrollTo({
+//     top: 0,
+//     behavior: 'smooth'
+//   });
+// });
