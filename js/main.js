@@ -13,16 +13,15 @@ for (let i = 0; i < menu.length; i++) {
 const btn = document.querySelector('#btn');
 const modal = document.querySelector('#modal');
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function(){
   modal.style.display = 'block';
 })
 
+// モーダル閉じ
 const closeBtn = document.querySelector('#js-modal-closeBtn');
-
-closeBtn.addEventListener('click', function() {
-  modal.style.display = 'none';
-})
-
+closeBtn.addEventListener('click', function(){
+  modal.style.display = 'none'
+});
 
 // スクロール
 const PageTopBtn = document.querySelector('#js-scroll-top');
@@ -32,3 +31,6 @@ PageTopBtn.addEventListener('click', () =>{
     behavior: 'smooth'
   });
 });
+
+// https://developer.mozilla.org/ja/docs/Web/API/Window/scroll
+
